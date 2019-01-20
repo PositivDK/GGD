@@ -1,0 +1,6 @@
+Gods, Golems and Dragons adds new stuff!
+So far:
+- Leveling system
+- Classes
+- A few items
+- 1 Town NPC

@@ -1,0 +1,9 @@
+author = Positiv
+version = 0.0.1
+displayName = Gods, Golems and Dragons
+homepage = https://forums.terraria.org/index.php?threads/gods-golems-and-dragons-mod.75736/
+hideCode = true
+hideResources = true
+includeSource = false
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
+includePDB = true

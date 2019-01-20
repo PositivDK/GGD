@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8298EAB6-0586-4BDA-9483-83624B66B13A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GGD</RootNamespace>
+    <AssemblyName>GGD</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AdditionalDropsForVanillaMobs.cs" />
+    <Compile Include="Classes.cs" />
+    <Compile Include="GGD.cs" />
+    <Compile Include="GGDPlayer.cs" />
+    <Compile Include="GGDWorld.cs" />
+    <Compile Include="Items\AreoiumBar.cs" />
+    <Compile Include="Items\AreoOrt.cs" />
+    <Compile Include="Items\Bags\GGDStartBag.cs" />
+    <Compile Include="Items\Bags\GGDMothronQueenBag.cs" />
+    <Compile Include="Items\Class\ClassWarrior.cs" />
+    <Compile Include="Items\Class\ClassNinja.cs" />
+    <Compile Include="Items\Class\ClassRanger.cs" />
+    <Compile Include="Items\Class\ClassSummoner.cs" />
+    <Compile Include="Items\Class\ClassMagician.cs" />
+    <Compile Include="Items\Class\ClassMaterial.cs" />
+    <Compile Include="Items\LvlS\BiggerExp.cs" />
+    <Compile Include="Items\LvlS\BiggestExp.cs" />
+    <Compile Include="Items\JustMaterial\EnergyOfCthulhu.cs" />
+    <Compile Include="Items\LvlS\LvlcapInc3.cs" />
+    <Compile Include="Items\LvlS\LvlcapInc4.cs" />
+    <Compile Include="Items\LvlS\LvlcapInc9.cs" />
+    <Compile Include="Items\LvlS\LvlcapInc8.cs" />
+    <Compile Include="Items\LvlS\LvlcapInc7.cs" />
+    <Compile Include="Items\LvlS\LvlcapInc6.cs" />
+    <Compile Include="Items\LvlS\LvlcapInc5.cs" />
+    <Compile Include="Items\LvlS\LvlcapInc2.cs" />
+    <Compile Include="Items\MothronItems\GGDBrokenHeroBow.cs" />
+    <Compile Include="Items\MothronItems\GGDBrokenHeroGrimoire.cs" />
+    <Compile Include="Items\MothronItems\GGDBrokenHeroGun.cs" />
+    <Compile Include="Items\MothronItems\GGDBrokenHeroKnife.cs" />
+    <Compile Include="Items\MothronItems\GGDBrokenHeroLance.cs" />
+    <Compile Include="Items\MothronItems\GGDBrokenHeroMace.cs" />
+    <Compile Include="Items\MothronItems\GGDBrokenHeroOrb.cs" />
+    <Compile Include="Items\MothronItems\GGDBrokenHeroSpear.cs" />
+    <Compile Include="Items\MothronItems\GGDBrokenHeroStaff.cs" />
+    <Compile Include="Items\MothronItems\GGDMothronShell.cs" />
+    <Compile Include="Items\MothronSize.cs" />
+    <Compile Include="Items\Weapons\CircleSword.cs" />
+    <Compile Include="Items\LvlS\Exp.cs" />
+    <Compile Include="ExpData.cs" />
+    <Compile Include="Items\HailOfBlades.cs" />
+    <Compile Include="Items\KnivesItem.cs" />
+    <Compile Include="Items\LvlS\Levels.cs" />
+    <Compile Include="Items\LvlS\Lvl.cs" />
+    <Compile Include="Items\LvlS\LvlcapInc.cs" />
+    <Compile Include="Items\SummoningItems\SumXpMer.cs" />
+    <Compile Include="Items\TileItems\GodsWorkbench.cs" />
+    <Compile Include="Items\Weapons\BetterFlyingDagger.cs" />
+    <Compile Include="Items\Weapons\TheCleaner.cs" />
+    <Compile Include="NPCs\MothronQueen\MothronGeneral.cs" />
+    <Compile Include="NPCs\MothronQueen\MothronLancer.cs" />
+    <Compile Include="NPCs\MothronQueen\MothronMagi.cs" />
+    <Compile Include="NPCs\MothronQueen\MothronQueen1.cs" />
+    <Compile Include="NPCs\MothronQueen\MothronQueen2.cs" />
+    <Compile Include="NPCs\MothronQueen\MothronRanger.cs" />
+    <Compile Include="Projectiles\DropKnife.cs" />
+    <Compile Include="Projectiles\Knives.cs" />
+    <Compile Include="Items\SummoningItems\PetiteEye.cs" />
+    <Compile Include="Items\TileItems\ExpTableItem.cs" />
+    <Compile Include="Items\TripleUseItem.cs" />
+    <Compile Include="NPCs\ExpMerchant.cs" />
+    <Compile Include="Tiles\ExpTable.cs" />
+    <Compile Include="Tiles\GodsWB.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Terraria\Microsoft.Xna.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Terraria\Microsoft.Xna.Framework.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Terraria\Microsoft.Xna.Framework.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Terraria\Microsoft.Xna.Framework.Xact.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Terraria">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Terraria\Terraria.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Items\Lore\" />
+    <Folder Include="NPCs\PsychicGolem\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>"C:\Program Files (x86)\Steam\steamapps\common\terraria\tModLoaderServer.exe" -build "$(ProjectDir)\" -eac "$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>
